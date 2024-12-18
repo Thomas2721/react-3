@@ -3,7 +3,7 @@ import Login from "./Login/Login";
 
 import AdminDashboard from "./AdminDashboard/AdminDashboard";
 import ErrorMessage from "./ErrorMessage";
-import UserDashboard from "./UserDashBoard/UserDashboard";
+import UserDashboard from "./UserDashBoard/UserDashboards";
 
 function App() {
 
