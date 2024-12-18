@@ -1,6 +1,6 @@
 import {useState} from "react";
 import Login from "./Login/Login";
-import UserDashBoard from "./UserDashBoard/UserDashBoard.jsx";
+import UserDashBoard from "./UserDashBoard/UserDashboard.jsx";
 import AdminDashboard from "./AdminDashboard/AdminDashboard";
 import ErrorMessage from "./ErrorMessage";
 
