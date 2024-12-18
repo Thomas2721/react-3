@@ -1,10 +1,10 @@
-import React from 'react'
-import './UserDashBoard.css'
+import React from "react";
+import "./UserDashboard.css";
 
-const UserDashBoard = () => {
+const UserDashboard = () => {
   return (
-    <div className='user'>"Welcome back! Enjoy exploring your dashboard"</div>
-  )
-}
+    <div className="user">"Welcome back! Enjoy exploring your dashboard"</div>
+  );
+};
 
-export default UserDashBoard
+export default UserDashboard;
