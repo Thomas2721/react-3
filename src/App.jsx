@@ -1,7 +1,6 @@
 import {useState} from "react";
 import Login from "./Login/Login";
 import UserDashboard from './UserDashBoard/UserDashboard.jsx';
-// import UserDashBoard from "./UserDashBoard/UserDashboard.jsx";
 import AdminDashboard from "./AdminDashboard/AdminDashboard";
 import ErrorMessage from "./ErrorMessage";
 
@@ -30,7 +29,7 @@ function App() {
     <>
     
     {!isLogIn && <Login handleLogin={handleLogin} />}
-    {isLogIn && !isAdmin && <UserDashBoard/>}
+    {isLogIn && !isAdmin && <UserDashboard/>}
     {isLogIn && isAdmin && <AdminDashboard />}
     
     {showError && <ErrorMessage />}
